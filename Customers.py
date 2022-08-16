@@ -14,6 +14,7 @@ def find_customer(customer_list):
 def remove_customer(customer_list):
     id_input = str(input("Enter ID of the customer you wish to remove: "))
     for i in customer_list:
+        # same comment for here - see books and fix in all functions
         temp_list = i.split(",")
         print(temp_list)
         if id_input == temp_list[0]:
