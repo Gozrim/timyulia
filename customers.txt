@@ -1,0 +1,7 @@
+id,name,city,age
+315872980,John Frida,Haifa,56
+211432992,Alaw Holmes,Tel Aviv,40
+203145123,Layla-Rose Daly,Jerusalem,23
+310112217,Libbi Walsh,Holon,35
+304091252,Rita Carrillo,Netanya,52
+305651251,Mike Poole,Hadera,67
