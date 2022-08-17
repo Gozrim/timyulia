@@ -39,4 +39,10 @@ def loan_book(loans_list,book_list):
     print(loans_list)
 
     return not_avaliable, loans_list
+    # what happens if the id of the customer does not exist?
+    # there should be an error message
+
+    # you are missing return a book, and late loans
+
+
 

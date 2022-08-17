@@ -45,6 +45,6 @@ while command != "4":
               f"3.Return a book\n"
               f"4.Display late loans")
         if action == "1":
-            loan_book(loans_list,book_list,customer_list, loand_books)
+            loan_book(loans_list,book_list)
         if action == "2":
             print(loans_list)
