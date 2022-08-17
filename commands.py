@@ -1,3 +1,5 @@
+# hi tim and yulia great work
+
 from Books import add_book, remove_book, find_book
 from Customers import add_customer, find_customer, remove_customer
 from Loans import loan_book
@@ -7,7 +9,8 @@ print("Welcome to the library, how may i assist?(chose the relevant number")
 
 while command != "4":
     command = input("1.Books 2.Customers 3.Loans 4.Exit menu")
-
+    if command == "0":
+        print ("hello")
     if command == "1":
         action = input(f"Chose an action\n"
               f"1.Add a new book\n"

@@ -4,6 +4,8 @@ def avaliable_books(loans_list, book_list,book_id):
     loan_num = []
     book_num = []
     same = []
+    if True:
+        print("True")
     for item in loans_list:
         temp_list = item.split(",")
         loan_num.append(temp_list[1]) 
